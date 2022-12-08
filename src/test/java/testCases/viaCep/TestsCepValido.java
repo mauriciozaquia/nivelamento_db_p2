@@ -36,8 +36,8 @@ public class TestsCepValido extends CepValidoTestBase {
         PropertiesSaver.setValoresProperties(payLoad);
     }
 
-    @Description("Consulta um CEP válido - Exemplo validacao no .then")
-    @DisplayName("Consulta CEP válido - Exemplo validacao no .then")
+    @Description("Consulta um CEP Válido - Exemplo validacao no .then")
+    @DisplayName("Consulta CEP Válido - Exemplo validacao no .then")
     @Test
     public void getCepValidoValidacaoNoThen()  {
         Response payLoad =

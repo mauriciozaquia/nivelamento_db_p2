@@ -35,6 +35,11 @@ Além disto é bom ter uma IDE Java para trabalhar com o código como por exempl
 * No pacote *testCases* clicar com o botão direito
 * Clicar na opção "Run 'Tests' in 'testCases.viaCep'"
 
+### RETORNO
+* Para o teste de CEP Válido, após a execução do mesmo será criado um arquivo no seguinte caminho:
+* src/main/resources/properties/ReturnOfGetCepValido.properties
+* Neste arquivo poderá ser consultado o retorno da solicitação de um cep válido.
+
 ### CENÁRIOS DE TESTE
 
 #### Cenário 1: Consulta CEP Válido

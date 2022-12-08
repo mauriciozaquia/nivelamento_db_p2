@@ -64,3 +64,6 @@ buildNumber.properties
 #####Relatórios######
 
 Report/*
+
+#####Retorno######
+src/main/resources/properties/ReturnOfGetCepValido.properties

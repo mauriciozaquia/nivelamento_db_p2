@@ -33,7 +33,7 @@ Além disto é bom ter uma IDE Java para trabalhar com o código como por exempl
 * É possível também rodar todos os testes
 * Navegar até o pacote src/teste/java/testCases/viaCep
 * No pacote *testCases* clicar com o botão direito
-* Clicar na opção "Run 'Testes' in 'testCases.viaCep'"
+* Clicar na opção "Run 'Tests' in 'testCases.viaCep'"
 
 ### CENÁRIOS DE TESTE
 

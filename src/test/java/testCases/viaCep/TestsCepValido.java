@@ -1,4 +1,4 @@
-package viaCep;
+package testCases.viaCep;
 
 import Utilities.FileOperations;
 import Utilities.PropertiesSaver;
@@ -11,9 +11,8 @@ import org.junit.jupiter.api.Test;
 import testBase.CepValidoTestBase;
 
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.equalTo;
 
-public class GetCepValido extends CepValidoTestBase {
+public class TestsCepValido extends CepValidoTestBase {
 
     @Description("Consulta um CEP válido")
     @DisplayName("Consulta CEP válido")

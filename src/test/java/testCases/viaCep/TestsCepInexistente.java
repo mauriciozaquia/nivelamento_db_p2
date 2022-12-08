@@ -1,4 +1,4 @@
-package viaCep;
+package testCases.viaCep;
 
 import Utilities.FileOperations;
 import Utilities.RequestTypes;
@@ -11,7 +11,7 @@ import testBase.CepInexistenteTestBase;
 
 import static io.restassured.RestAssured.given;
 
-public class GetCepInexistente extends CepInexistenteTestBase {
+public class TestsCepInexistente extends CepInexistenteTestBase {
 
     @Description("Consulta um CEP inexistente")
     @DisplayName("Consulta CEP inexistente")

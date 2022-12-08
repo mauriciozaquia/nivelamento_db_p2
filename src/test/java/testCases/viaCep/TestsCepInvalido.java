@@ -1,4 +1,4 @@
-package viaCep;
+package testCases.viaCep;
 
 import Utilities.FileOperations;
 import Utilities.RequestTypes;
@@ -11,7 +11,7 @@ import testBase.CepInvalidoTestBase;
 
 import static io.restassured.RestAssured.given;
 
-public class GetCepInvalido extends CepInvalidoTestBase {
+public class TestsCepInvalido extends CepInvalidoTestBase {
 
     @Description("Consulta um CEP Inválido")
     @DisplayName("Consulta CEP Inválido")

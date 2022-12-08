@@ -1,13 +1,13 @@
-package testBase;
+package testBases;
 
-import Utilities.CepRequestSpecification;
+import utilities.CepRequestSpecification;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 import org.junit.jupiter.api.BeforeAll;
 
-public class CepInexistenteTestBase {
+public class CepValidoTestBase {
 
     protected static RequestSpecification requestSpec;
     protected static ResponseSpecification responseSpec;

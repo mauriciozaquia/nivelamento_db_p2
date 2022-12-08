@@ -1,20 +1,20 @@
 package testCases.viaCep;
 
-import Utilities.FileOperations;
-import Utilities.RequestTypes;
+import utilities.FileOperations;
+import utilities.RequestTypes;
 import io.restassured.response.Response;
 import jdk.jfr.Description;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import testBase.CepInexistenteTestBase;
+import testBases.CepInexistenteTestBase;
 
 import static io.restassured.RestAssured.given;
 
 public class TestsCepInexistente extends CepInexistenteTestBase {
 
-    @Description("Consulta um CEP inexistente")
-    @DisplayName("Consulta CEP inexistente")
+    @Description("Consulta um CEP Inexistente")
+    @DisplayName("Consulta CEP Inexistente")
     @Test
     public void getCepInexistente() {
         Response payLoad =

@@ -1,9 +1,9 @@
-package Utilities;
+package utilities;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.specification.RequestSpecification;
-import static Utilities.Endpoints.BASE_URI;
-import static Utilities.Endpoints.PATH_WS;
+import static utilities.Endpoints.BASE_URI;
+import static utilities.Endpoints.PATH_WS;
 
 public class CepRequestSpecification {
 

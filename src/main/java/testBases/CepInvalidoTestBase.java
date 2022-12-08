@@ -1,6 +1,6 @@
-package testBase;
+package testBases;
 
-import Utilities.CepRequestSpecification;
+import utilities.CepRequestSpecification;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;

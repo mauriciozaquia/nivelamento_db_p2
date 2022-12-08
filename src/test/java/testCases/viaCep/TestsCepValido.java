@@ -1,21 +1,21 @@
 package testCases.viaCep;
 
-import Utilities.FileOperations;
-import Utilities.PropertiesSaver;
-import Utilities.RequestTypes;
+import utilities.FileOperations;
+import utilities.PropertiesSaver;
+import utilities.RequestTypes;
 import io.restassured.response.Response;
 import jdk.jfr.Description;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import testBase.CepValidoTestBase;
+import testBases.CepValidoTestBase;
 
 import static io.restassured.RestAssured.given;
 
 public class TestsCepValido extends CepValidoTestBase {
 
-    @Description("Consulta um CEP válido")
-    @DisplayName("Consulta CEP válido")
+    @Description("Consulta um CEP Válido")
+    @DisplayName("Consulta CEP Válido")
     @Test
     public void getCepValido()  {
         Response payLoad =

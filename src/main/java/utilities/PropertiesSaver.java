@@ -11,5 +11,8 @@ public class PropertiesSaver {
         FileOperations.setProperties("ReturnOfGetCepValido", "localidade", payLoad.body().path("localidade"));
         FileOperations.setProperties("ReturnOfGetCepValido", "uf", payLoad.body().path("uf"));
         FileOperations.setProperties("ReturnOfGetCepValido", "ibge", payLoad.body().path("ibge"));
+        FileOperations.setProperties("ReturnOfGetCepValido", "gia", payLoad.body().path("gia"));
+        FileOperations.setProperties("ReturnOfGetCepValido", "ddd", payLoad.body().path("ddd"));
+        FileOperations.setProperties("ReturnOfGetCepValido", "siafi", payLoad.body().path("siafi"));
     }
 }
